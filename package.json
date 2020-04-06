@@ -1,0 +1,27 @@
+{
+  "name": "quizzer_api_server",
+  "version": "1.0.0",
+  "description": "Quiz app api",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prod": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Santosh-Devkota/Node-Quiz-App-Api.git"
+  },
+  "author": "Santosh Devkota",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Santosh-Devkota/Node-Quiz-App-Api/issues"
+  },
+  "homepage": "https://github.com/Santosh-Devkota/Node-Quiz-App-Api#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.7",
+    "nodemon": "^2.0.2"
+  }
+}

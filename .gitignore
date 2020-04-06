@@ -1,0 +1,4 @@
+node_modules/
+dummy.js
+config/config.env
+package-lock.json
